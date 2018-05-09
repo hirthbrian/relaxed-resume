@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i';
+
+html {
+  font-family: 'IBM Plex Sans';
+  padding: 0.5cm 1cm;
+  a {
+    color: #000000;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .name {
+    .full-name {
+      font-size: 38;
+      font-weight: 100;
+    }
+    .position {
+      padding-left: 3;
+      font-size: 14;
+      font-weight: 300;
+    }
+  }
+
+  .contact {
+    font-size: 12;
+    font-weight: 300;
+    text-align: right;
+  }
+
+}
+
+.objective {
+  text-align: justify;
+  padding-top: 15;
+  font-size: 14;
+}
+
+.category {
+  font-size: 20;
+  padding-bottom: 2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10;
+  border-bottom: 1px solid #000000;
+}
+
+.experience-block {
+  padding-top: 15;
+  .experience-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .title {
+      font-weight: 500;
+      .location {
+        font-weight: 200;
+      }
+    }
+    .date {
+      font-size: 14;
+      font-weight: 200;
+    }
+  }
+  .content {
+    text-align: justify;
+    padding-top: 5;
+    font-size: 14;
+  }
+}
